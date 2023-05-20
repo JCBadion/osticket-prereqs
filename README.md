@@ -32,10 +32,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9KRqPJD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Make sure you have the following installation files downloaded on the right window.
+
+From the Start Menu, go to "Control Panel" > "Programs" > "Turn Windows Features On or Off". Then check the box for "Internet Information Services". Open the folder and go to "World Wide Web Services" > Application Development Features" > check the box for "CGI".
 </p>
 <br />
 
