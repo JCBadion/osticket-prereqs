@@ -1,4 +1,4 @@
-# osticket-prereqs
+# osTicket-Prereqs
 Prerequisites for installing osTicket
 
 <p align="center">
@@ -25,9 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Setup Virtual Machine (VM)
 - Remote Access to VM
-- Download Required Installation files
-- Item 4
-- Item 5
+- Download Required Installation files for osTicket
 
 <h2>Installation Steps</h2>
 
@@ -37,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 Make sure you have the following installation files downloaded on the right window.
 
-From the Start Menu, go to "Control Panel" > "Programs" > "Turn Windows Features On or Off". Then check the box for "Internet Information Services". Open the folder and go to "World Wide Web Services" > Application Development Features" > check the box for "CGI". After checking the box and confirming, go ahead and input your IPv4 Address into your internet search browser to confirm that your localhost is working and the Internet Information Services webpage should load.
+From the Start Menu, go to "Control Panel" -> "Programs" -> "Turn Windows Features On or Off". Then check the box for "Internet Information Services". Open the folder and go to "World Wide Web Services" > Application Development Features" > check the box for "CGI". After checking the box and confirming, go ahead and input your IPv4 Address into your internet search browser to confirm that your localhost is working and the Internet Information Services webpage should load.
   
 From there, go ahead and start installing the files on the right folder of the image above in this order:
 
