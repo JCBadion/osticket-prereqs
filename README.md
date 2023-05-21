@@ -41,11 +41,11 @@ From the Start Menu, go to "Control Panel" > "Programs" > "Turn Windows Features
   
 From there we will go ahead and start installing the files on the right folder of the image above in this order:
 
-  - "PHPManagerforIIS"
-  - "Rewrite_amd64"
-  - "PHP 7.3.8" (For this one you want to create a new folder in your local disk (C:) titled "PHP", and then unzip the contents into the newly-created PHP Folder)
-  - "VC_redist.x86"
-  - "MySQL 5.5.62" (For this installation, when asked, do a "Typical Setup". After installing, launch Configuration and opt for a "Standard Configuration". It will then ask you to fill in a root password. After filling out a password, it will then execute the program.
+- "PHPManagerforIIS"
+- "Rewrite_amd64"
+- "PHP 7.3.8" (For this one you want to create a new folder in your local disk (C:) titled "PHP", and then unzip the contents into the newly-created PHP Folder)
+- "VC_redist.x86"
+- "MySQL 5.5.62" (For this installation, when asked, do a "Typical Setup". After installing, launch Configuration and opt for a "Standard Configuration". It will then ask you to fill in a root password. After filling out a password, it will then execute the program.
   
   
 </p>
@@ -53,9 +53,16 @@ From there we will go ahead and start installing the files on the right folder o
 
 <p>
 <img src="https://i.imgur.com/GN6s1ns.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/W7AS6PD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After installing and configuring MySQL, click on the Star Menu and open IIS as an Administrator. The program will look like the image above. Afterwards, access the PHP Manager and click on "Register PHP from Within IIS". To find the PHP, return to the PHP Folder that was created in (C:) and you'll find the PHP.exe there. Once that's completed, look to the right of the IIS and click on "Restart".
+After installing and configuring MySQL, click on the Star Menu and open IIS as an Administrator. The program will look like the first image above. Afterwards, access the PHP Manager button and the 2nd image shown will appear. Click on "Register PHP from Within IIS". To find the PHP, return to the PHP Folder that was created in (C:) and you'll find the PHP-cgi there. Next, under the PHP Extensions section, enable the following extensions
+  
+  - "php_imap.dll"
+  - "php_intl.dll"
+  - "php_opcache.dll"
+  
+  Once that's completed, go back to home on the IIS, look to the right of the IIS program and click on "Restart".
 </p>
 <br />
 
