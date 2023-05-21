@@ -117,3 +117,7 @@ If all the steps are done accordingly, the congratuations page will show up. The
 The final step before finishing up is to go into the osTicket Folder and delete the "setup" folder, now that the setup for the localhost Ticketing system is complete.
 </p>
 <br />
+
+<h2>osTicket Part 2</h2>
+
+  - ### [Post-Install Configuration](https://github.com/JCBadion/post-install-config)
