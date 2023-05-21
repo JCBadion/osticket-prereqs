@@ -39,7 +39,7 @@ Make sure you have the following installation files downloaded on the right wind
 
 From the Start Menu, go to "Control Panel" > "Programs" > "Turn Windows Features On or Off". Then check the box for "Internet Information Services". Open the folder and go to "World Wide Web Services" > Application Development Features" > check the box for "CGI". After checking the box and confirming, go ahead and input your IPv4 Address into your internet search browser to confirm that your localhost is working and the Internet Information Services webpage should load.
   
-From there we will go ahead and start installing the files on the right folder of the image above in this order:
+From there, go ahead and start installing the files on the right folder of the image above in this order:
 
 - "PHPManagerforIIS"
 - "Rewrite_amd64"
@@ -68,13 +68,54 @@ After installing and configuring MySQL, click on the Star Menu and open IIS as a
 
 <p>
 <img src="https://i.imgur.com/QuqJ5U3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fHvVADz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once the IIS is restarted, go to the osTicket.zip folder that we downloaded earlier and extract the "upload" folder to c:inetpub\wwwroot, as shown in the image above. Once the "upload" folder is copied/moved into the wwwroot folder, change the name of the "upload" folder to "osTicket". Return to the IIS program and from the left side, click on sites -> Default -> osTicket, and to the right of the IIS program from there, click on "Browse *.80". If all goes well, the osTicket page will load up on your browser.
+Once the IIS is restarted, go to the osTicket.zip folder that was downloaded earlier and extract the "upload" folder to c:inetpub\wwwroot, as shown in the image above. Once the "upload" folder is copied/moved into the wwwroot folder, change the name of the "upload" folder to "osTicket". Return to the IIS program and from the left side, click on Sites -> Default -> osTicket, and to the right of the IIS program from there, click on "Browse *.80". If all goes well, the osTicket page will load up on your browser.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/fHvVADz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/56sNP4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+After confirming that the localhost works and osTicket is able to load, go into the osTicket folder placed in wwwroot and look for the following file: "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" Once found, first change the file name to "ost-config.php", then open "properties" on the file, go to the "security" tab and click on "Advanced". Disabled the inheritance and after that, add a new principal labeled "everyone". Allow full control access over this file for everyone, and apply.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/MgRXcYt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Back to the osTicket browser page, click on "continue" and begin setting up the osTicket system. Make sure the email address for the system settings and the Admin user are NOT the same. Before filling out the Database Settings, install the HeidiSQL file back in the download folder where the rest of the installers are located.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/BKn5Q13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+One HeidiSQL is installed and launched, at the bottom left of the program, open a new database. The user is the same as the one in MySQL, "root", and the password will also be the same. This is what the osTicket on the localhost will use as a database. Name the database "osTicket", and click "Open". Once that is completed, return to the osTicket Basic Installation two images above and fill out the remaining MySQL boxes with the same information used when filling out HeidiSQL:
+  
+  - "MySQL Database: osTicket"
+  - "MySQL Username: root"
+  - "MySQL Password: ******"
+  
+Check if everything looks good and click "Install!"
+  
+<p>
+<img src="https://i.imgur.com/pf8EZ0W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n9vcsiT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Klwu0Tl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+If all the steps are done accordingly, the congratuations page will show up. The localhost's login page and support center page will also be working. All that's left to do is to change the permissions on the ost-config file to "read only". Before finishing up, return back to the ost-config.php file (C:\inetpub\wwwroot\osTicket\include\ost-config.php), open up properties -> security -> Advanced, and change the permissions to "read only".
+</p>
+<br />  
+<p>
+<img src="https://i.imgur.com/JwshAcD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The final step before finishing up is to go into the osTicket Folder and delete the "setup" folder, now that the setup for the localhost Ticketing system is complete.
+</p>
+<br />
