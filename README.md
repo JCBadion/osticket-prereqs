@@ -30,6 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/9KRqPJD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -50,7 +51,9 @@ From there, go ahead and start installing the files on the right folder of the i
 <br />
 
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/GN6s1ns.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/W7AS6PD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -65,7 +68,9 @@ After installing and configuring MySQL, click on the Star Menu and open IIS as a
 <br />
 
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/QuqJ5U3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/fHvVADz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -74,6 +79,7 @@ Once the IIS is restarted, go to the osTicket.zip folder that was downloaded ear
 <br />
 
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/56sNP4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -82,6 +88,7 @@ After confirming that the localhost works and osTicket is able to load, go into 
 <br />
 
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/MgRXcYt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -90,6 +97,7 @@ Back to the osTicket browser page, click on "continue" and begin setting up the 
 <br />
 
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/BKn5Q13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -102,8 +110,11 @@ One HeidiSQL is installed and launched, at the bottom left of the program, open 
 Check if everything looks good and click "Install!"
   
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/pf8EZ0W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/n9vcsiT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/Klwu0Tl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -111,6 +122,7 @@ If all the steps are done accordingly, the congratuations page will show up. The
 </p>
 <br />  
 <p>
+<h3>Placeholder</h3>
 <img src="https://i.imgur.com/JwshAcD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
