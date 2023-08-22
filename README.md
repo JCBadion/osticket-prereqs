@@ -57,7 +57,7 @@ From there, go ahead and start installing the files on the right folder of the i
 <img src="https://i.imgur.com/W7AS6PD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After installing and configuring MySQL, click on the Star Menu and open IIS as an Administrator. The program will look like the first image above. Afterwards, access the PHP Manager button and the 2nd image shown will appear. Click on "Register PHP from Within IIS". To find the PHP, return to the PHP Folder that was created in (C:) and you'll find the PHP-cgi there. Next, under the PHP Extensions section, enable the following extensions
+After installing and configuring MySQL, click on the Start Menu and open IIS as an Administrator. The program will look like the first image above. Afterwards, access the PHP Manager button and the 2nd image shown will appear. Click on "Register PHP from Within IIS". To find the PHP, return to the PHP Folder that was created in (C:) and you'll find the PHP-cgi there. Next, under the PHP Extensions section, enable the following extensions
   
   - "php_imap.dll"
   - "php_intl.dll"
