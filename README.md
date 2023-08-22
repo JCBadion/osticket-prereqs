@@ -36,8 +36,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 Make sure you have the following installation files downloaded on the right window.
 
-From the Start Menu, go to "Control Panel" -> "Programs" -> "Turn Windows Features On or Off". Then check the box for "Internet Information Services". Open the folder and go to "World Wide Web Services" > Application Development Features" > check the box for "CGI". After checking the box and confirming, go ahead and input your IPv4 Address into your internet search browser to confirm that your localhost is working and the Internet Information Services webpage should load.
-  
+From the Start Menu, go to "Control Panel" -> "Programs" -> "Turn Windows Features On or Off". Then check the box for "Internet Information Services". Collapse the folder and go to "World Wide Web Services" > Application Development Features" > check the box for "CGI". After checking the box and confirming, collapse the "Common HTTP Features" folder below "Application Development Features", and check to see that every folder is checked. After checking both folders go ahead and input the IP Address, 127.0.0.1, into your internet search browser to confirm that your localhost is working and the Internet Information Services webpage should load.
+
 From there, go ahead and start installing the files on the right folder of the image above in this order:
 
 - "PHPManagerforIIS"
